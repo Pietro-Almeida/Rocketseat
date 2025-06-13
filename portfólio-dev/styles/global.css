@@ -23,7 +23,7 @@
   --title-md: 24px/120% var(--title-family);
   --title-sm: 16px/120% var(--title-family);
 
-  --subtitles-family: 'Inconsolata', sans-serif;
+  --subtitle-family: 'Inconsolata', sans-serif;
   --subtitle: 20px/120% var(--subtitle-family);
 
   --text-family: 'Maven Pro', sans-serif;
