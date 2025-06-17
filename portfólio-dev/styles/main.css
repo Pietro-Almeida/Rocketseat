@@ -1,0 +1,43 @@
+section {
+  padding-bottom: 50px;
+}
+#mywork {
+  background-color: var(--gray-200);
+}
+#myservices{
+  background-color: var(--gray-100);
+}
+#tech {
+  width: 48px;
+}
+#border{
+  margin: auto;
+  width: 250px;
+  border: 2px solid var(--gray-300);
+  border-radius: 16px;
+  padding: 10px;
+}
+.containerGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.containerGrid div:nth-child(1) {
+  justify-self: end;
+}
+.containerGrid div:nth-child(3) {
+  justify-self: end;
+}
+.grid {
+  background-color: var(--gray-300);
+  width: 330px;
+  border-radius: 16px;
+  padding: 12px 12px;
+}
+.grid:hover {
+  border: 2px solid var(--gray-400);
+}
+.grid > img {
+  width: 306px;
+  border-radius: 16px;
+}

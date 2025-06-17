@@ -5,28 +5,6 @@ header {
 #profile{
   position: relative;
 }
-.container{
-  display: flex;
-  justify-content: center;
-  width: 680px;
-  margin: auto;
-  padding-top: 60px;
-  flex-direction: column;
-  align-items: center;
-}
-.container h1 {
-  color: var(--gray-600);
-  font: var(--title-lg);
-  margin-bottom: 10px;
-}
-.container h2 {
-  color: var(--gray-500);
-  font: var(--subtitle);
-}
-.container p {
-  color: var(--gray-400);
-  font: var(--text-sm);
-}
 #profileimg {
   width: 150px;
   padding: 5px;
@@ -37,8 +15,8 @@ header {
 #code {
   width: 50px;
   position: absolute;
-  top: 230px;
-  right: 270px;
+  top: 205px;
+  right: 600px;
 }
 strong {
   color: var(--red);

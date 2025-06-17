@@ -1,0 +1,28 @@
+footer {
+  background-image: url(../assets/Background_Contacts.png);
+}
+#purple {
+  color: var(--purple);
+}
+#contato {
+  background-color: var(--gray-300);
+  border-radius: 10px;
+}
+.footerContainer{
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: var(--gray-500);
+  font: 30px medium 'Maven Pro';
+  width: 200px;
+  padding: 10px;
+}
+a > h5 {
+  width: 288px;
+  padding-inline: 10px;
+}
