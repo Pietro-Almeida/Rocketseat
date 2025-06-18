@@ -1,28 +1,39 @@
 footer {
   background-image: url(../assets/Background_Contacts.png);
+  background-size: cover;
 }
 #purple {
   color: var(--purple);
 }
-#contato {
+.contato {
   background-color: var(--gray-300);
   border-radius: 10px;
 }
+#last{
+  margin-bottom: 120px;
+}
 .footerContainer{
   display: flex;
-  gap: 50px;
+  gap: 40px;
   flex-direction: column;
+}
+.seta {
+  width: 28px;
 }
 a {
   display: flex;
-  justify-content: space-between;
   text-decoration: none;
   color: var(--gray-500);
-  font: 30px medium 'Maven Pro';
-  width: 200px;
+  font-family: 'Maven Pro';
   padding: 10px;
+  width: 360px;
+}
+a:hover {
+  border: 2px solid var(--blue);
+  border-radius: 10px;
 }
 a > h5 {
-  width: 288px;
   padding-inline: 10px;
+  margin-block: auto;
+  text-align: start;
 }
