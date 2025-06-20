@@ -2,10 +2,8 @@ header {
   background-image: url(../assets/Background_Intro.png);
   background-size: cover;
 }
-#profile{
-  position: relative;
-}
 #profileimg {
+  position: relative;
   width: 150px;
   padding: 5px;
   border: 2px var(--red) solid;
