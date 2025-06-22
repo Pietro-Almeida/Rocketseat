@@ -1,0 +1,18 @@
+@charset "UTF-8";
+:root {
+  --font-family: 'Poppins', sans-serif;
+  --text: 400 1rem/1.5 var(--font-family);
+  --text-sm: 400px 0.875rem/1.4 var(--font-family)
+
+  --text-primary: #292524;
+  --text-secundary: #57534E;
+  --text-tertiary: #8F8881;
+  --text-highlight: #E43A12;
+
+  --surface-primary: #ffffff;
+  --surface-secudary: #fee7d6;
+
+  --stroke-defult: #d6d3d1;
+  --stroke-hightlight: #f3541c;
+  --semantic-error: #dc2626;
+}
