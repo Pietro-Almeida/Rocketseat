@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.container {
+  --max-width: 375px;
+  width: min(var(--max-width), 100% - var(--px-lg) * 2);
+  border: 5px solid white;
+  margin-inline: auto;
+}
+@media (width >= 80em) {
+  .container{
+    --max-width: 80rem;
+  }
+}
