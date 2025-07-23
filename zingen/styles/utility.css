@@ -14,7 +14,7 @@
 .container {
   --max-width: 375px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
-  border: 5px solid white;
+  /* border: 5px solid white; */
   margin-inline: auto;
 }
 .desktop-only {
@@ -26,9 +26,16 @@
 }
 .flex {
   display: flex;
+
+}
+.itens-center {
+  align-items: center;
 }
 .gap-1 {
   gap: 1rem;
+}
+.gap-16 {
+  gap: 1.5rem;
 }
 .grid {
   display: grid;
