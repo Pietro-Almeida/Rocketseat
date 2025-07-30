@@ -14,7 +14,7 @@
 .container {
   --max-width: 375px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
-  /* border: 5px solid white; */
+  /* border: 5px solid white; */ /*Ctrl + ;*/
   margin-inline: auto;
 }
 .desktop-only {
